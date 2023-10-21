@@ -1,0 +1,25 @@
+{
+  "name": "aws_tp1",
+  "version": "1.0.0",
+  "description": "Trabalho prático 1 - Implentação de API - PUC MG",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "lint": "eslint ."
+  },
+  "author": "Thiago Augusto de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^29.7.0",
+    "prettier": "3.0.3",
+    "supertest": "^6.3.3"
+  }
+}

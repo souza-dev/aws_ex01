@@ -38,7 +38,7 @@ yarn test
 
 ## Consultando o resources Pessoas
 
-Enviando o request com a etag retornada no request anterior no header If-None-Match, a API retorna código de Status 304 (lembrando de conferir a etag na responde do request feito).
+Enviando o request com a etag retornada no request anterior no header If-None-Match, a API retorna código de Status 304 (lembrando de conferir a etag na response do request feito).
 
 ### Request
 

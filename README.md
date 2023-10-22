@@ -116,7 +116,7 @@ Utilizando a rota /pessoas/:id, é possível obter uma pessoa com o id específi
 
 ## Criando um novo recurso Pessoa
 
-Utilizando um POST e enviando um body do tipo {id: number, nome: string} é criado um novo objeto pessoa e a api retorna o objeto criado e código de status 201. Se o id já estiver em uso a api retorna código de status 409. Caso o objeto enviado falte alguma das propriedades a api retorna código de status 409.
+Utilizando um POST e enviando um body do tipo {id: number, nome: string} é criado um novo objeto pessoa e a api retorna o objeto criado e código de status 201. Se o id já estiver em uso a api retorna código de status 409. Caso o objeto enviado falte alguma das propriedades a api retorna código de status 400.
 
 ### Request criação de recurso.
 

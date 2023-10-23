@@ -18,6 +18,7 @@ app.get('/', (_, res) => {
 });
 
 // Rotas para recurso pessoas.
+// O próprio express já verificar a etag e caso os dados não tenham mudado ele retorna 304.
 app.get('/pessoas', (_, res) => {
   res.json(resultados.pessoas);
 });
